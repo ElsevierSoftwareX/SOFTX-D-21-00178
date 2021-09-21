@@ -3,9 +3,7 @@ GANG-MAM is an automated tool aiming at making existing malware strongly evasive
 -------------
 DEPENDENCIES 
 -------------
-
 	1. Programming dependencies
-
 		a. Python3 (version 3.6+)
 		b. Machine learning packages: 
 		    i. Tensorflow (version 2.4.1)
@@ -101,17 +99,13 @@ an Ubuntu 18.04 OS with virtualization enabled.
 			API level: 30
 			ABI: x86_64
 			Target: Android 11.0 (Google APIs)
-
 		b. Try launching the emulator from the tools > avdmanager tab in Android Studio to ensure that its working.
-		    
 		c. Some of the common errors encountered and its solution are given below:
-		
 			i. Android studio shows permission denied for /dev/kvm
 				- Add user to the group
 					$ sudo adduser $USER kvm
 				- Logout and log in 
-				- Try launching emulator again
-				
+				- Try launching emulator again			
 			ii. Emulator settings
 				- From within the avdmanager in Android studio, choose the emulator to be modified
 				- Click on edit option in "Actions" menu
