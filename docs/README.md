@@ -99,14 +99,13 @@ an Ubuntu 18.04 OS with virtualization enabled.
 	7. Creating an AVD
 		
 		a. Steps to create an AVD can be found in https://developer.android.com/studio/run/managing-avds#createavd
-           The following are the avd details used for testing the tool:
-        
-            Device: Pixel 4a
-            System Image: 
-                Release name: R
-                API level: 30
-                ABI: x86_64
-                Target: Android 11.0 (Google APIs)
+           	   The following are the avd details used for testing the tool:
+			Device: Pixel 4a
+			System Image: 
+			Release name: R
+			API level: 30
+			ABI: x86_64
+			Target: Android 11.0 (Google APIs)
 
 		b. Try launching the emulator from the tools > avdmanager tab in Android Studio to ensure that its working.
 		    
@@ -155,17 +154,17 @@ DIRECTORY TREE
 	.
 	├── input			
 	│   │							
-	│   ├── apks						    --> Input folder for APK(s)
+	│   ├── apks				    --> Input folder for APK(s)
 	│   │   ├── 09edb4...8de.apk		    --> Sample APK to be modified
 	│   │   └── 61bad9...92a.apk
 	│   │
 	│   ├── feature_vector
-	│   │   └── input.csv				    --> Input CSV file created from static features of the APKS
+	│   │   └── input.csv			    --> Input CSV file created from static features of the APKS
 	│   │
 	│   ├── no_gan_feature_vector
-	│   │   └── input.csv				    --> Input CSV file for running the No GAN mode
+	│   │   └── input.csv			    --> Input CSV file for running the No GAN mode
 	│   │
-	│   └── src						        --> Source folder of the input section of the tool
+	│   └── src				    --> Source folder of the input section of the tool
 	│       ├── create_unique_lists.py
 	│       ├── create_vectors.py
 	│       ├── main.py
@@ -173,7 +172,7 @@ DIRECTORY TREE
 	│	
 	├── GANG
 	│	│
-	│	├── src						        --> Source folder of the feature vector modification engine
+	│	├── src				    --> Source folder of the feature vector modification engine
 	│	│   ├── gan                 	    --> Folder for GAN binaries
 	│	│   ├── blackboxmodel          	    --> Folder for blackbox model binaries
 	│	│   ├── feature
@@ -184,7 +183,7 @@ DIRECTORY TREE
 	│
     ├── MAM
     │   │
-    │   ├── intermediates          	        --> Intermediate smali files used in processing
+    │   ├── intermediates          	        		--> Intermediate smali files used in processing
     │   │   ├── dummy_activity.smali
     │   │   ├── dummy_provider.smali
     │   │   ├── dummy_receiver.smali
@@ -199,8 +198,8 @@ DIRECTORY TREE
     │   ├── monkey
     │   │   ├── comparison			        --> Monkey comparison report of input and modified apks
     │   │   ├── input_apks_result			--> Monkey testing logs of input APKs
-    │   │   ├── modified_apks_result		--> Monkey testing logs of modified APKs
-    │   │   └── src						    --> Source folder for Monkey testing
+    │   │   ├── modified_apks_result			--> Monkey testing logs of modified APKs
+    │   │   └── src					--> Source folder for Monkey testing
     │   │
     │   └── vt
     │       ├── input_apks_result
@@ -209,15 +208,15 @@ DIRECTORY TREE
 	│	
     ├── output
     │   │
-    │   ├── apks				        	--> Output folder for the APKs
+    │   ├── apks				--> Output folder for the APKs
 	│   │   ├── 09edb4...8de_A.apk	        --> Modified APK(s)
 	│   │   └── 61bad9...92a_A.apk
     │   │
-    │   └── logs    			    		--> Output folder for the storing runtime logs
+    │   └── logs    			    	--> Output folder for the storing runtime logs
 	│	
     ├── docs
 	│	
-    └── run.sh						        --> Driver script for running the Modification framework
+    └── run.sh					--> Driver script for running the Modification framework
 
 --------------
 COMPILE & RUN 
@@ -226,7 +225,7 @@ COMPILE & RUN
 	To run the tool, open a terminal and navigate to the root folder. Issue the following command to
 run the tool.
 
-	$ chmod +x run.sh
+    $ chmod +x run.sh
     $ chmod +x ./input/src/static_code_capturing.sh
     $ ./run.sh -e <emulator_name>
 
@@ -262,9 +261,9 @@ USAGE
 
 		$ ./run.sh -e Nexus_4a -n 
 
-    To clean all the output folders before running the tool use '-c' flag:
+    	To clean all the output folders before running the tool use '-c' flag:
 
-        $ ./run.sh -c
+        	$ ./run.sh -c
 
 -------------------------
 GANG-MAM FRAMEWORK USAGE
