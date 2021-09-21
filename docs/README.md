@@ -173,28 +173,28 @@ DIRECTORY TREE
 	│	│   ├── feature
 	│	│   └── modified_feature_vector.py
 	│	│
-	│	└── modified_feature_vector			--> Folder to store the modified csvs
-	│   	└── input.csv					--> CSV generated from the pre-trained GAN model
+	│	└── modified_feature_vector	    --> Folder to store the modified csvs
+	│   	└── input.csv			    --> CSV generated from the pre-trained GAN model
 	│
     ├── MAM
     │   │
-    │   ├── intermediates          	        		--> Intermediate smali files used in processing
+    │   ├── intermediates          	            --> Intermediate smali files used in processing
     │   │   ├── dummy_activity.smali
     │   │   ├── dummy_provider.smali
     │   │   ├── dummy_receiver.smali
     │   │   └── dummy_service.smali
     │   │
-    │   └── src						        --> Source folder of the APK modification engine
+    │   └── src					    --> Source folder of the APK modification engine
     │       ├── main.py
     │       └── myKeyStore.jks
 	│	
     ├── validation
     │   │
     │   ├── monkey
-    │   │   ├── comparison			        --> Monkey comparison report of input and modified apks
-    │   │   ├── input_apks_result			--> Monkey testing logs of input APKs
-    │   │   ├── modified_apks_result			--> Monkey testing logs of modified APKs
-    │   │   └── src					--> Source folder for Monkey testing
+    │   │   ├── comparison			     --> Monkey comparison report of input and modified apks
+    │   │   ├── input_apks_result		     --> Monkey testing logs of input APKs
+    │   │   ├── modified_apks_result		     --> Monkey testing logs of modified APKs
+    │   │   └── src				     --> Source folder for Monkey testing
     │   │
     │   └── vt
     │       ├── input_apks_result
@@ -203,15 +203,15 @@ DIRECTORY TREE
 	│	
     ├── output
     │   │
-    │   ├── apks				--> Output folder for the APKs
-	│   │   ├── 09edb4...8de_A.apk	        --> Modified APK(s)
+    │   ├── apks				     --> Output folder for the APKs
+	│   │   ├── 09edb4...8de_A.apk	             --> Modified APK(s)
 	│   │   └── 61bad9...92a_A.apk
     │   │
-    │   └── logs    			    	--> Output folder for the storing runtime logs
+    │   └── logs    			    	     --> Output folder for the storing runtime logs
 	│	
     ├── docs
 	│	
-    └── run.sh					--> Driver script for running the Modification framework
+    └── run.sh					     --> Driver script for running the Modification framework
 
 --------------
 COMPILE & RUN 
