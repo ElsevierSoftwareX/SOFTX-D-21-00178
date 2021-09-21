@@ -73,7 +73,7 @@ an Ubuntu 18.04 OS with virtualization enabled.
 	
 		$ sudo apt install qemu-kvm qemu
 
-	4. Virtualisation
+	4. Virtualization
 
 		$ sudo apt install cpu-checker
 		$ kvm-ok
