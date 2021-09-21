@@ -1,6 +1,4 @@
----------------
-GANG-MAM V 1.0
----------------
+GANG-MAM is an automated tool aiming at making existing malware strongly evasive, namely GAN Generated malware for Modifying Android Malware (GANG-MAM), based on a GAN engine. The tool consists of two parts: the GANG that produces an evasive features vector and the MAM that accordingly modifies the existing malware, preserving its malicious behaviour
 
 -------------
 DEPENDENCIES 
