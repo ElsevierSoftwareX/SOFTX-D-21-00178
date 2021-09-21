@@ -7,25 +7,21 @@ DEPENDENCIES
 	1. Programming dependencies
 
 		a. Python3 (version 3.6+)
-
 		b. Machine learning packages: 
-            i. Tensorflow (version 2.4.1)
-           ii. Keras (version 2.4.3)
-          iii. Scikit-learn (version 0.23.1)
-           iv. Matplotlib (version 3.2.2)
-            v. Xgboost (version 1.4.2)
-
+		    i. Tensorflow (version 2.4.1)
+		   ii. Keras (version 2.4.3)
+		  iii. Scikit-learn (version 0.23.1)
+		   iv. Matplotlib (version 3.2.2)
+		    v. Xgboost (version 1.4.2)
 		c. Other Python packages: ElementTree, numpy, pandas, pickle, 
-            logging, argparse, subprocess, os, sys, time, warning & shutil
-
+           				  logging, argparse, subprocess, os, 
+					  sys, time, warning & shutil
 	2. System dependencies
-
 		a. Ubuntu 18.04
 		b. Virtualization support
 		c. RAM 8GB or more
 
 	3. External dependencies
-
 		a. Apktool (version 2.5.0)
 		b. QEMU emulator (version 2.11.1)
         c. Android Studio (version ):
@@ -62,12 +58,12 @@ an Ubuntu 18.04 OS with virtualization enabled.
 	2. Apktool
 
 		a. Save the contents from https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
-            as "apktool"
-        b. Download apktool v2.5.0. from https://bitbucket.org/iBotPeaches/apktool/downloads/
-        c. Rename downloaded jar to apktool.jar
-        d. Move both files (apktool.jar & apktool) to /usr/local/bin (root needed)
-        e. Make sure both files are executable (chmod +x)
-        f. Try running "apktool -version" via command line
+		    as "apktool"
+		b. Download apktool v2.5.0. from https://bitbucket.org/iBotPeaches/apktool/downloads/
+		c. Rename downloaded jar to apktool.jar
+		d. Move both files (apktool.jar & apktool) to /usr/local/bin (root needed)
+		e. Make sure both files are executable (chmod +x)
+		f. Try running "apktool -version" via command line
 
 	3. QEMU
 	
@@ -82,11 +78,10 @@ an Ubuntu 18.04 OS with virtualization enabled.
 		enabled and can be used. For more info, refer: https://developer.android.com/studio/run/emulator-acceleration#vm-linux
 
 	5. Android Studio
-
-        a. Download Android Studio from https://developer.android.com/studio
-        b. Extract and navigate to the folder and run
-            $ cd <path_to_extracted_folder>/bin
-            $ ./studio.sh
+		a. Download Android Studio from https://developer.android.com/studio
+		b. Extract and navigate to the folder and run
+		    $ cd <path_to_extracted_folder>/bin
+		    $ ./studio.sh
 
     6. Android SDK & Emulator
 
@@ -239,7 +234,7 @@ USAGE
 
 	Usage: ./run.sh -e <emulator_name> [-c] [-n]
 		-e Name of the emulator
-    	-c Clean all output folder before starting the tool
+    		-c Clean all output folder before starting the tool
 		-n Path of the feature vector file to run in No GAN mode
 		-v Print current tool version
 		-h help message
