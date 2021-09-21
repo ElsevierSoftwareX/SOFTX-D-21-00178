@@ -191,10 +191,10 @@ DIRECTORY TREE
     ├── validation
     │   │
     │   ├── monkey
-    │   │   ├── comparison			     --> Monkey comparison report of input and modified apks
-    │   │   ├── input_apks_result		     --> Monkey testing logs of input APKs
-    │   │   ├── modified_apks_result		     --> Monkey testing logs of modified APKs
-    │   │   └── src				     --> Source folder for Monkey testing
+    │   │   ├── comparison			    --> Monkey comparison report of input and modified apks
+    │   │   ├── input_apks_result		    --> Monkey testing logs of input APKs
+    │   │   ├── modified_apks_result		    --> Monkey testing logs of modified APKs
+    │   │   └── src				    --> Source folder for Monkey testing
     │   │
     │   └── vt
     │       ├── input_apks_result
@@ -203,11 +203,11 @@ DIRECTORY TREE
 	│	
     ├── output
     │   │
-    │   ├── apks				     --> Output folder for the APKs
-	│   │   ├── 09edb4...8de_A.apk	             --> Modified APK(s)
+    │   ├── apks				    --> Output folder for the APKs
+	│   │   ├── 09edb4...8de_A.apk	            --> Modified APK(s)
 	│   │   └── 61bad9...92a_A.apk
     │   │
-    │   └── logs    			    	     --> Output folder for the storing runtime logs
+    │   └── logs    			    	    --> Output folder for the storing runtime logs
 	│	
     ├── docs
 	│	
